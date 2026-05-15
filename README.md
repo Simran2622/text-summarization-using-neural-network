@@ -36,16 +36,16 @@ The project utilizes the BART transformer model for abstractive summarization an
 
 ## Dataset
 
-The project uses benchmark datasets for training and evaluation:
+The project uses benchmark datasets for training and evaluation purposes.
 
 - CNN/DailyMail Dataset
 - DUC 2002 Dataset
 
-The dataset was divided into:
-- Training Set
-- Validation Set
-- Testing Set
+The CNN/DailyMail dataset is loaded dynamically using the Hugging Face `datasets` library:
 
+```python
+from datasets import load_dataset
+dataset = load_dataset("cnn_dailymail", "3.0.0")
 ---
 
 ## Methodology
