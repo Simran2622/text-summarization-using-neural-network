@@ -1,3 +1,5 @@
+//list of all libraries required to run the project
+
 transformers
 datasets
 rouge-score
