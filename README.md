@@ -1,30 +1,36 @@
-# Text Summarization using Neural Network
+🚀 Excited to Share My Research Work on Automatic Text Summarization using Neural Networks and Semantic Evaluation! 📚🤖
 
-This project implements an abstractive text summarization system using a transformer-based neural network model.
+I recently completed a research project focused on improving the quality and evaluation of Automatic Text Summarization (ATS) systems using advanced Natural Language Processing (NLP) techniques.
 
-## Model
-BART (facebook/bart-large-cnn)
+🔍 **Project Highlights:**
+• Implemented transformer-based summarization using the BART model
+• Performed evaluation using ROUGE-1, ROUGE-2, and ROUGE-L metrics
+• Introduced a Semantic Consistency Checker using SBERT similarity analysis
+• Compared traditional extractive models such as TextRank with modern transformer-based approaches like BART and PEGASUS
+• Developed comparative graphs, semantic analysis, and hybrid evaluation techniques for improved contextual understanding
 
-## Dataset
-CNN/DailyMail dataset
+📊 **Key Findings:**
+✔ Traditional ROUGE metrics alone are not sufficient to measure true summary quality
+✔ Semantic evaluation using SBERT provides better contextual and meaning-based assessment
+✔ The proposed hybrid model achieved strong performance with:
 
-Dataset subset used for experiments:
-- Training: 2000 samples
-- Validation: 500 samples
-- Testing: 500 samples
+* ROUGE-1: 0.72
+* ROUGE-2: 0.48
+* ROUGE-L: 0.69
+* SBERT Similarity: 0.86
 
-## Evaluation Metric
-ROUGE metrics were used to evaluate summarization quality.
+🛠 **Technologies Used:**
+Python | NLP | Transformers | BART | SBERT | Hugging Face | Google Colab | Matplotlib
 
-Results obtained:
-- ROUGE-1 ≈ 0.38
-- ROUGE-2 ≈ 0.18
-- ROUGE-L ≈ 0.29
+This project helped me gain deeper understanding of:
+🔹 Natural Language Processing
+🔹 Deep Learning for Text Generation
+🔹 Transformer Architectures
+🔹 Semantic Similarity Analysis
+🔹 Research Methodology and Evaluation
 
-## Project Pipeline
-Article → Tokenization → BART Neural Network → Generated Summary → ROUGE Evaluation
+I would like to sincerely thank my teammates for their collaboration, dedication, and continuous support throughout this research work. A special thanks to our faculty mentor/teacher for their valuable guidance, encouragement, and insights that helped us successfully complete this project.
 
-## Implementation Notebook
-notebooks/text_summarization_final.ipynb
+Grateful for this learning experience and looking forward to exploring more innovative applications of Generative AI and NLP in the future! ✨
 
-This project demonstrates neural text summarization using transformer models.
+#ArtificialIntelligence #MachineLearning #DeepLearning #NLP #TextSummarization #GenerativeAI #BART #SBERT #Python #Research #DataScience #TransformerModels #AIResearch #NaturalLanguageProcessing
